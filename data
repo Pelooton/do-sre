@@ -32,4 +32,10 @@
       "sd": false,
       "r": false,
       "hd": false,
-      "etf": fals
+      "etf": false
+  },
+  {
+      "s": "ETHUSDT",
+      "st": "TRADING",
+      "b": "ETH",
+      "q": "U
