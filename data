@@ -24,4 +24,8 @@
       "tags": [
           "pow",
           "mining-zone"
-  
+      ],
+      "pom": false,
+      "pomt": null,
+      "lc": false,
+ 
