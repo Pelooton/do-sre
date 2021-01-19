@@ -59,4 +59,8 @@
       "tags": [
           "mining-zone",
           "Layer1_Layer2"
-    
+      ],
+      "pom": false,
+      "pomt": null,
+      "lc": false,
+   
