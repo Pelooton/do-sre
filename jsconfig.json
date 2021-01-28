@@ -4,4 +4,10 @@
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
-  
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      
