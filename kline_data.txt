@@ -1,0 +1,17 @@
+
+{
+  // 网格线
+  grid: {
+    show: true,
+    // 网格水平线
+    horizontal: {
+      show: true,
+      size: 1,
+      color: '#393939',
+      // 'solid'|'dash'
+      style: 'dash',
+      dashValue: [2, 2]
+    },
+   	// 网格垂直线
+    vertical: {
+      show: false,
