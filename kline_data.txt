@@ -186,3 +186,85 @@
         marginBottom: 0,
         marginLeft: 8
       }
+    }
+  },
+  // x轴
+  xAxis: {
+    show: true,
+    height: null,
+    // x轴线
+    axisLine: {
+      show: true,
+      color: '#888888',
+      size: 1
+    },
+    // x轴分割文字
+    tickText: {
+      show: true,
+      color: '#D9D9D9',
+      family: 'Helvetica Neue',
+      weight: 'normal',
+      size: 12,
+      paddingTop: 3,
+      paddingBottom: 6
+    },
+    // x轴分割线
+    tickLine: {
+      show: true,
+      size: 1,
+      length: 3,
+      color: '#888888'
+    }
+  },
+  // y轴
+  yAxis: {
+    show: true,
+    width: null,
+    // 'left' | 'right'
+    position: 'right',
+    // 'normal' | 'percentage' | 'log'
+    type: 'normal',
+    inside: false,
+    reverse: false,
+    // y轴线
+    axisLine: {
+      show: true,
+      color: '#888888',
+      size: 1
+    },
+    // y轴分割文字
+    tickText: {
+      show: true,
+      color: '#D9D9D9',
+      family: 'Helvetica Neue',
+      weight: 'normal',
+      size: 12,
+      paddingLeft: 3,
+      paddingRight: 6
+    },
+    // y轴分割线
+    tickLine: {
+      show: true,
+      size: 1,
+      length: 3,
+      color: '#888888'
+    }
+  },
+  // 图表之间的分割线
+  separator: {
+    size: 1,
+    color: '#888888',
+    fill: true,
+    activeBackgroundColor: 'rgba(230, 230, 230, .15)'
+  },
+  // 十字光标
+  crosshair: {
+    show: true,
+    // 十字光标水平线及文字
+    horizontal: {
+      show: true,
+      line: {
+        show: true,
+        // 'solid'|'dash'
+        style: 'dash',
+        dashValue: [4, 2],
