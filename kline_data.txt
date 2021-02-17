@@ -268,3 +268,88 @@
         // 'solid'|'dash'
         style: 'dash',
         dashValue: [4, 2],
+        size: 1,
+        color: '#888888'
+      },
+      text: {
+        show: true,
+        color: '#D9D9D9',
+        size: 12,
+        family: 'Helvetica Neue',
+        weight: 'normal',
+        paddingLeft: 2,
+        paddingRight: 2,
+        paddingTop: 2,
+        paddingBottom: 2,
+        borderSize: 1,
+        borderColor: '#505050',
+        borderRadius: 2,
+        backgroundColor: '#505050'
+      }
+    },
+    // 十字光标垂直线及文字
+    vertical: {
+      show: true,
+      line: {
+        show: true,
+        // 'solid'|'dash'
+        style: 'dash',
+        dashValue: [4, 2],
+        size: 1,
+        color: '#888888'
+      },
+      text: {
+        show: true,
+        color: '#D9D9D9',
+        size: 12,
+        family: 'Helvetica Neue',
+        weight: 'normal',
+        paddingLeft: 2,
+        paddingRight: 2,
+        paddingTop: 2,
+        paddingBottom: 2,
+        borderSize: 1,
+        borderColor: '#505050',
+        borderRadius: 2,
+        backgroundColor: '#505050'
+      }
+    }
+  },
+  // 图形
+  shape: {
+    point: {
+      backgroundColor: '#2196F3',
+      borderColor: '#2196F3',
+      borderSize: 1,
+      radius: 4,
+      activeBackgroundColor: '#2196F3',
+      activeBorderColor: '#2196F3',
+      activeBorderSize: 1,
+      activeRadius: 6
+    },
+    line: {
+      // 'solid'|'dash'
+      style: 'solid'
+      color: '#2196F3',
+      size: 1,
+      dashValue: [2, 2]
+    },
+    polygon: {
+      // 'stroke'|'fill'
+      style: 'stroke',
+      stroke: {
+        // 'solid'|'dash'
+        style: 'solid',
+        size: 1,
+        color: '#2196F3',
+        dashValue: [2, 2]
+      },
+      fill: {
+        color: 'rgba(33, 150, 243, 0.1)'
+      }
+    },
+    arc: {
+      // 'stroke'|'fill'
+      style: 'stroke',
+      stroke: {
+        // 'solid'|'dash'
