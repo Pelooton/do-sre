@@ -353,3 +353,76 @@
       style: 'stroke',
       stroke: {
         // 'solid'|'dash'
+        style: 'solid',
+        size: 1,
+        color: '#2196F3',
+        dashValue: [2, 2]
+      },
+      fill: {
+        color: '#2196F3'
+      }
+    },
+    text: {
+      style: 'fill',
+      color: '#2196F3',
+      size: 12,
+      family: 'Helvetica Neue',
+      weight: 'normal',
+      offset: [0, 0]
+    }
+  },
+  annotation: {
+    // 'top' | 'bottom' | 'point'
+    position: 'top',
+    offset: [20, 0]
+    symbol: {
+      // 'diamond' | 'circle' | 'rect' | 'triangle' | 'custom' | 'none'
+      type: 'diamond',
+      size: 8,
+      color: '#2196F3',
+      activeSize: 10,
+      activeColor: '#FF9600'
+    }
+  },
+  tag: {
+    // 'top' | 'bottom' | 'point'
+    position: 'point',
+    offset: 0,
+    line: {
+      show: true,
+      style: LineStyle.DASH,
+      dashValue: [4, 2],
+      size: 1,
+      color: '#2196F3'
+    },
+    text: {
+      color: '#FFFFFF',
+      backgroundColor: '#2196F3',
+      size: 12,
+      family: 'Helvetica Neue',
+      weight: 'normal',
+      paddingLeft: 2,
+      paddingRight: 2,
+      paddingTop: 2,
+      paddingBottom: 2,
+      borderRadius: 2,
+      borderSize: 1,
+      borderColor: '#2196F3'
+    },
+    mark: {
+      offset: 0,
+      color: '#FFFFFF',
+      backgroundColor: '#2196F3',
+      size: 12,
+      family: 'Helvetica Neue',
+      weight: 'normal',
+      paddingLeft: 2,
+      paddingRight: 2,
+      paddingTop: 2,
+      paddingBottom: 2,
+      borderRadius: 2,
+      borderSize: 1,
+      borderColor: '#2196F3'
+    }
+  }
+}
