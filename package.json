@@ -1,4 +1,7 @@
 {
   "name": "vue3_crypto",
   "version": "0.1.0",
-  "priv
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-s
