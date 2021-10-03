@@ -187,3 +187,24 @@ $down: #f6465d;
             padding-left: 0.5rem;
           }
         }
+
+        .cal {
+          padding: 1rem;
+        }
+      }
+
+      .introduction {
+        flex-direction: column-reverse;
+
+        .about {
+          margin-top: 2rem;
+        }
+      }
+    }
+
+    #trade {
+      width: 100% !important;
+
+    }
+  }
+}
