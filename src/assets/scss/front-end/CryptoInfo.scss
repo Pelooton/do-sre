@@ -106,3 +106,84 @@ $down: #f6465d;
 
             input[type=number] {
               width: 50%;
+              outline: none !important;
+              border: 0;
+              background: inherit;
+              color: #fff;
+              font-weight: 700;
+
+              &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+              }
+            }
+
+            span {
+              padding: 0.5rem 1rem;
+              border-radius: 1.5rem;
+              color: #fff;
+              font-size: 0.8rem;
+              font-weight: 700;
+              background-color: $bg-dark;
+
+              img {
+                width: 1.2rem;
+                height: 1.2rem;
+              }
+            }
+          }
+        }
+
+        .sum {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 1rem;
+          color: $f-color;
+          font-weight: 900;
+        }
+      }
+
+      .btn {
+        width: 100%;
+        margin-top: 1rem;
+        background-color: $yellow;
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+    }
+  }
+
+  .introduction {
+    margin-top: 5rem;
+
+    .about {
+      p {
+        padding-top: 1rem;
+        padding-right: 2.5rem;
+      }
+    }
+
+    .market {
+      .stats {
+        padding-top: 1rem;
+
+        div {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cryptoinfo {
+    padding: 1rem 0.5rem;
+
+    .container-fluid {
+      padding: 0;
+
+      .main {
+        .chart {
+          .price {
+            padding-left: 0.5rem;
+          }
+        }
