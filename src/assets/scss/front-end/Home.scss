@@ -61,3 +61,31 @@ $bg-dark: #0a0e11;
 
           input {
             width: 100% !important;
+            margin-bottom: 0.5rem;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .main-char {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    .main-char {
+      .col-6 {
+        h4 {
+          font-size: 1.5rem;
+        }
+
+        span {
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+}
