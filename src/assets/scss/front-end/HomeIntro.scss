@@ -37,4 +37,9 @@ $f-color: #838e9e;
               font-weight: 800;
 
               &:hover {
-                background-colo
+                background-color: $bg-dark;
+              }
+
+              td {
+                padding: 1rem 0;
+    
