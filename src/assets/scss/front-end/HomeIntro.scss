@@ -68,4 +68,9 @@ $f-color: #838e9e;
     }
 
     .portfolio {
-      margin-bottom: 11rem
+      margin-bottom: 11rem;
+      position: relative;
+
+      .btn {
+        position: absolute;
+     
