@@ -101,3 +101,6 @@ $f-color: #838e9e;
         .card {
           background-color: $bg-dark;
 
+          .card-body {
+            .card-text {
+              font-size: 0.8
