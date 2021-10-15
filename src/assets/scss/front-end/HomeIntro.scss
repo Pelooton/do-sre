@@ -115,4 +115,8 @@ $f-color: #838e9e;
 
       .download-area {
         .QR-code {
-          background-color
+          background-color: $bg-dark;
+          border-radius: 0.5rem;
+
+          img {
+   
