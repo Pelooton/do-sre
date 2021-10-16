@@ -130,4 +130,6 @@ $f-color: #838e9e;
             li {
               a {
                 &:hover {
-                  bac
+                  background-color: $f-color;
+                  border-radius: 0.5rem;
+             
