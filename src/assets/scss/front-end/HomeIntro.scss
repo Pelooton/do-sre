@@ -126,4 +126,8 @@ $f-color: #838e9e;
         }
 
         .download-option {
-          u
+          ul {
+            li {
+              a {
+                &:hover {
+                  bac
