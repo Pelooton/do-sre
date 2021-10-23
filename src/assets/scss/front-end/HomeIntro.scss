@@ -191,4 +191,10 @@ $f-color: #838e9e;
 }
 
 @media screen and (max-width: 992px) {
-  .container-flui
+  .container-fluid {
+    .intro {
+      padding: 1.5rem;
+
+      .portfolio {
+        .btn {
+          bottom: -5rem;
