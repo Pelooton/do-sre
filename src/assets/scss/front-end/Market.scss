@@ -52,3 +52,72 @@ $f-color: #838e9e;
 
         .router-link-active {
           color: $yellow;
+          background-color: #3C2601;
+        }
+      }
+
+      .search {
+
+        align-self: center;
+        font-size: 0.7rem;
+        border: 0.5px solid #515864;
+        border-radius: 0.2rem;
+
+        .bi-search {
+          margin: 0.5rem;
+          color: $f-color  !important;
+        }
+
+        input[type=search] {
+          width: 10rem;
+          border: 0;
+          color: $f-color;
+          background-color: $second;
+
+          &::placeholder {
+            color: #838e9e;
+          }
+
+          &::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .market {
+    .container-fluid {
+      padding: 0 !important;
+
+      nav {
+        padding: 1rem 0 0 1rem !important;
+
+        .breadcrumb {
+          margin: 0 !important;
+        }
+      }
+
+      .top-nav {
+        padding: 1rem !important;
+        flex-direction: column-reverse;
+        justify-content: start !important;
+        align-items: flex-start !important;
+
+        .category {
+          margin-top: 1rem;
+        }
+
+        .search {
+          align-self: flex-start;
+        }
+      }
+    }
+  }
+}
