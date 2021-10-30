@@ -21,4 +21,7 @@ $down: #f6465d;
 
     .tbody {
       tr {
-        border-bottom: 1px solid $f-color  !im
+        border-bottom: 1px solid $f-color  !important;
+        font-size: 0.8rem;
+        font-weight: 800;
+        cursor: pointer;
