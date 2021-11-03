@@ -75,4 +75,9 @@ $down: #f6465d;
   }
 }
 
-@media screen and (max-width: 992p
+@media screen and (max-width: 992px) {
+
+  .dnone {
+    display: none !important;
+  }
+}
