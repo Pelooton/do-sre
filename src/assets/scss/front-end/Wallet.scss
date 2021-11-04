@@ -10,3 +10,72 @@ $f-color: #838e9e;
   background-color: $bg-dark;
 
   .balance {
+    padding: 4rem 10rem;
+
+    .info {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .img {
+        width: 3rem;
+      }
+
+      .name {
+        margin-left: 1rem;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+    }
+
+    h4 {
+      margin-top: 2rem;
+      color: #fff;
+      font-size: 0.9rem;
+
+      .bi {
+        padding: 0 0.3rem;
+        margin-right: 0.5rem;
+        border-radius: 5px;
+        background-color: $main;
+      }
+    }
+
+    .money {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .money-value {
+        color: #eaecf0;
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+
+      .option {
+        .btn {
+          background-color: #ffda00;
+          margin: 0 0.5rem;
+          padding: 0.2rem 2rem;
+          border-radius: 0.2rem;
+          font-size: 0.7rem;
+          font-weight: 500;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+}
+
+.stock-container {
+  background-color: $bg-dark;
+
+  .stock {
+    padding: 4rem 10rem;
+    background-color: $second;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
