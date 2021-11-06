@@ -156,3 +156,92 @@ $f-color: #838e9e;
 
       .info {
         justify-content: center;
+
+        .img {
+          width: 4rem;
+        }
+
+        .name {
+          font-size: 2rem;
+        }
+      }
+
+      h4 {
+        text-align: center;
+      }
+
+      .money {
+        flex-direction: column;
+
+        .money-value {
+          margin-bottom: 1rem;
+
+          span {
+            display: block;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .stock-container {
+    .stock {
+      padding: 3rem 2rem;
+
+      h4 {
+        text-align: center;
+      }
+
+      ul {
+        margin-top: 2rem;
+
+        li {
+          margin: 0 -1rem 1rem;
+          padding: 1rem 1.5rem;
+
+          .left {
+            align-items: center;
+
+            .title {
+              flex-direction: column;
+              align-items: flex-start;
+              margin-left: 1rem;
+
+              .main {
+                margin: 0;
+                align-self: flex-start;
+              }
+            }
+          }
+
+          .right {
+            flex-direction: column;
+            align-items: flex-end;
+
+            .main {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wallet {
+    .balance {
+      .money {
+        .option {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .btn {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
