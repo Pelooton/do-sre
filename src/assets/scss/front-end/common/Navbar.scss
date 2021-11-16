@@ -37,3 +37,83 @@ $second: #1d232a;
             display: none;
           }
         }
+      }
+
+      .manage-money {
+        .dropdown-menu {
+          padding: 0.5rem;
+          margin-top: 0.05rem;
+          border-radius: 0;
+          background-color: $second;
+
+          .dropdown-item {
+            a {
+              color: #fff !important;
+            }
+
+            &:hover {
+              background-color: #2a313a;
+              border-radius: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    .menu-btn {
+      display: none;
+    }
+
+    .offcanvas {
+      .offcanvas-body {
+        .manage-money {
+          .dropdown-menu {
+            transform: translate(-6.5rem, 0.45rem) !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    .offcanvas {
+      background-color: $second;
+
+      .offcanvas-body {
+        .nav-item {
+          padding: 0 1rem;
+          cursor: pointer;
+
+          a {
+            font-size: 1rem;
+
+            &:hover {
+              color: #fff;
+            }
+
+            .bi {
+              display: inline-block;
+              color: #fff;
+              margin-right: 1rem !important;
+            }
+          }
+
+          &:hover {
+            background-color: #2a313a;
+            border-radius: 0.3rem;
+
+            .bi {
+              color: $yellow
+            }
+          }
+        }
+
+        .manage-money {
+          .dropdown-menu {
+            margin-bottom: 1rem !important;
