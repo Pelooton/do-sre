@@ -13,4 +13,8 @@ $down: #f6465d;
     background-color: transparent;
     border: 0;
     border-radius: 0.2rem !important;
-    font-size: 0.8rem !
+    font-size: 0.8rem !important;
+
+    &:hover {
+      color: $bg-dark;
+      background-color: #a0aab7;
