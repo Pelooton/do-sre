@@ -18,3 +18,10 @@ $down: #f6465d;
     &:hover {
       color: $bg-dark;
       background-color: #a0aab7;
+    }
+  }
+}
+
+.page-link.active {
+  color: $bg-dark  !important;
+  background-color: #a0aab7 !i
