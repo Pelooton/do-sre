@@ -24,4 +24,9 @@ $down: #f6465d;
 
 .page-link.active {
   color: $bg-dark  !important;
-  background-color: #a0aab7 !i
+  background-color: #a0aab7 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .pagination {
+    justify-
