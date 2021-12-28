@@ -59,3 +59,74 @@
             <div class="d-flex justify-content-between mb-2"><span>24h交易量</span><span>{{$filters.currency(cryptoInfo.qv / 1000000)}}M</span></div>
             <div class="d-flex justify-content-between mb-2"><span>幣別</span><span>USDT(TetherUS)</span></div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ToastContainerVue></ToastContainerVue>
+</template>
+<script>
+import KlineChart from '@/components/KlineChart.vue'
+import ToastContainerVue from './ToastContainer.vue'
+import { ref } from 'vue'
+import { storeToRefs } from 'pinia'
+import { useRoute } from 'vue-router'
+import statusStore from '@/stores/statusStore'
+import cryptoStore from '@/stores/cryptoStore'
+import walletStore from '@/stores/walletStore'
+export default {
+  components: {
+    KlineChart,
+    ToastContainerVue
+  },
+  setup () {
+    // isLoading
+    const status = statusStore()
+    const { isLoading } = storeToRefs(status)
+    // 取出24小時變化及相關數據
+    const cryptoData = cryptoStore()
+    const { sortData } = storeToRefs(cryptoData)
+    const { getData } = cryptoData
+    const cryptoInfo = ref([])
+    cryptoData.getData()
+    setTimeout(() => {
+      cryptoInfo.value = [...sortData.value].find((i) => i.b === coin)
+    }, 500)
+    // 取出路由id
+    const route = useRoute()
+    const coin = route.params.id
+    // 取出子組件發送過來的數據(一天的變化)
+    const dataLists = ref([])
+    const percentChg = ref(0)
+    function getTodayData (list) {
+      dataLists.value = list.value[364]
+      percentChg.value = (list.value[364].close - list.value[363].close) * 100 / list.value[363].close
+    }
+    // 計算要買數量的總價格
+    const count = ref(0)
+    const totalPrice = ref(0)
+    // 購買完傳送數量
+    const wallet = walletStore()
+    const { sendCount } = wallet
+    // Return
+    return {
+      isLoading,
+      coin,
+      dataLists,
+      percentChg,
+      getTodayData,
+      count,
+      totalPrice,
+      cryptoData,
+      cryptoInfo,
+      sortData,
+      getData,
+      sendCount
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/CryptoInfo.scss">
+
+</style>
