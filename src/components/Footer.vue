@@ -27,3 +27,31 @@
           </li>
           <li class="nav-item mx-2">
             <a href="https://www.instagram.com/" class="nav-link pt-1">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="https://github.com/linancemelo" class="nav-link pt-1">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex justify-content-between text-light fs-8 mt-2">
+        <p class="mb-md-2 copyright">
+          Copyright © 2022 LINANCE INC. Taipei Taiwan
+        </p>
+        <p class="mb-md-2 dnone">本網站僅提供個人作品使用，無商業用途。</p>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/common/Footer.scss">
+
+</style>
