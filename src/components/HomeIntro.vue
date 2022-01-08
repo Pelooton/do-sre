@@ -126,3 +126,89 @@
             <div class="QR-code w-75 d-flex align-item-center p-2 mx-auto">
               <img src="https://ppt.cc/fRo98x@.png" alt="">
               <div class="align-self-center ms-4">
+                <div class="text-light fw-lighter">掃描下載</div>
+                <div class="text-light fw-bold">iOS & Android</div>
+              </div>
+            </div>
+            <div class="download-option">
+              <ul class="d-flex flex-wrap px-5 mt-4">
+                <li class="w-50 px-4"><a class="text-light d-flex flex-column align-items-center p-3" href=""><i class="fs-4 bi bi-apple"></i><span>App Store</span></a></li>
+                <li class="w-50 px-4"><a class="text-light d-flex flex-column align-items-center p-3" href=""><i class="fs-4 bi bi-google-play"></i><span>Google Play</span></a></li>
+                <li class="w-50 px-4"><a class="text-light d-flex flex-column align-items-center p-3" href=""><i class="fs-4 bi bi-command"></i><span>MacOS</span></a></li>
+                <li class="w-50 px-4"><a class="text-light d-flex flex-column align-items-center p-3" href=""><i class="fs-4 bi bi-windows"></i><span>Windows</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 5.help -->
+      <div class="help">
+        <h2 class="text-light m-0">尋求幫助</h2>
+        <div class="help-option">
+          <ul class="d-flex mt-5">
+            <li class="d-flex my-4">
+              <div class="image">
+                <img src="https://ppt.cc/fbN6Ux@.png" class="img-fluid" alt="">
+              </div>
+              <div>
+                <h5 class="text-light">線上客服</h5>
+                <p>我們為您提供全天線上客服支援。</p>
+                <a href="" class="more">了解更多</a>
+              </div>
+            </li>
+            <li class="d-flex my-4">
+              <div class="image">
+                <img src="https://ppt.cc/fnEaUx@.png" class="img-fluid" alt="">
+              </div>
+              <div>
+                <h5 class="text-light">常見問題</h5>
+                <p>查找常見問題，獲得解決方案。</p>
+                <a href="" class="more">了解更多</a>
+              </div>
+            </li>
+            <li class="d-flex my-4">
+              <div class="image">
+                <img src="https://ppt.cc/fLyoJx@.png" class="img-fluid" alt="">
+              </div>
+              <div>
+                <h5 class="text-light">社群平台</h5>
+                <p>隨時了解最新的動態消息。</p>
+                <a href="" class="more">了解更多</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="intro-end text-center">
+      <h1 class="text-light">今天就開始賺取收益吧！</h1>
+      <button class="btn btn-warning mt-5 px-5" type="submit">立即開始</button>
+    </div>
+  </div>
+</template>
+
+<script>
+import cryptoStore from '@/stores/cryptoStore'
+import { storeToRefs } from 'pinia'
+import statusStore from '@/stores/statusStore'
+
+// import { onMounted } from 'vue'
+export default {
+  setup () {
+    // isLoading
+    const status = statusStore()
+    const { isLoading } = storeToRefs(status)
+    const cryptoData = cryptoStore()
+    const { topTenMC } = storeToRefs(cryptoData)
+    const { getData } = cryptoData
+    cryptoData.getData()
+    return {
+      isLoading, topTenMC, getData
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/HomeIntro.scss">
+
+</style>
