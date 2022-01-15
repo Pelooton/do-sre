@@ -3,4 +3,7 @@
 </template>
 
 <script>
-import { init, klineChart } from 'klinecha
+import { init, klineChart } from 'klinecharts'
+import klineStore from '@/stores/klineStore'
+import { ref } from 'vue'
+import { sto
