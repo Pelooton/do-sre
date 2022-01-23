@@ -8,4 +8,7 @@ import klineStore from '@/stores/klineStore'
 import { ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
-export defa
+export default {
+  setup (props, { emit }) {
+    const route = useRoute()
+    const coin = ref(route.para
