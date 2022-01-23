@@ -13,4 +13,6 @@ export default {
     const route = useRoute()
     const coin = ref(route.params.id)
     const klineData = klineStore()
-    const { dataList, option } = st
+    const { dataList, option } = storeToRefs(klineData)
+    const { getKlineData } = klineData
+    const kLineCharts = ref(kl
