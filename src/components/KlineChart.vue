@@ -11,4 +11,6 @@ import { useRoute } from 'vue-router'
 export default {
   setup (props, { emit }) {
     const route = useRoute()
-    const coin = ref(route.para
+    const coin = ref(route.params.id)
+    const klineData = klineStore()
+    const { dataList, option } = st
