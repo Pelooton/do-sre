@@ -6,4 +6,6 @@
 import { init, klineChart } from 'klinecharts'
 import klineStore from '@/stores/klineStore'
 import { ref } from 'vue'
-import { sto
+import { storeToRefs } from 'pinia'
+import { useRoute } from 'vue-router'
+export defa
