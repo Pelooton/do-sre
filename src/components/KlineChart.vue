@@ -15,4 +15,7 @@ export default {
     const klineData = klineStore()
     const { dataList, option } = storeToRefs(klineData)
     const { getKlineData } = klineData
-    const kLineCharts = ref(kl
+    const kLineCharts = ref(klineChart)
+    klineData.getKlineData(coin.value)
+    setTimeout(() => {
+      kLineCharts.valu
