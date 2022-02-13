@@ -22,4 +22,8 @@ export default {
       kLineCharts.value.createTechnicalIndicator('VOL', true)
       kLineCharts.value.applyNewData(dataList.value)
       pushData()
-    }, 
+    }, 500)
+    function pushData () {
+      emit('push-data', dataList, coin)
+    }
+    re
