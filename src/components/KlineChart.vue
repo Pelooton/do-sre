@@ -19,4 +19,7 @@ export default {
     klineData.getKlineData(coin.value)
     setTimeout(() => {
       kLineCharts.value = init('trade', option.value)
-      kLineCharts.value.createTechnicalIndicator('VOL'
+      kLineCharts.value.createTechnicalIndicator('VOL', true)
+      kLineCharts.value.applyNewData(dataList.value)
+      pushData()
+    }, 
