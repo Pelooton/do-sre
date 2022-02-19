@@ -26,4 +26,9 @@ export default {
     function pushData () {
       emit('push-data', dataList, coin)
     }
-    re
+    return {
+      coin,
+      klineData,
+      dataList,
+      option,
+      getKlineD
