@@ -31,4 +31,14 @@ export default {
       klineData,
       dataList,
       option,
-      getKlineD
+      getKlineData,
+      kLineCharts,
+      pushData
+    }
+  }
+}
+</script>
+
+<style>
+
+</s
