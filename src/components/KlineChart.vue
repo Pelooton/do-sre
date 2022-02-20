@@ -41,4 +41,4 @@ export default {
 
 <style>
 
-</s
+</style>
