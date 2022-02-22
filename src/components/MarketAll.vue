@@ -87,3 +87,35 @@ export default {
 
     // 4.toggle我的最愛
     const likeData = likeStore()
+    const { likeList, likeId } = storeToRefs(likeData)
+    const { toggleLike } = likeData
+
+    // *return
+    return {
+      isLoading,
+      // 1.獲取所需數據
+      cryptoData,
+      getData,
+      sortData,
+      // 2.設定分頁所需數據
+      paginationData,
+      currentPageData,
+      updatePage,
+      // 3.搜尋關鍵字
+      searchTxt,
+      // tempData,
+      // changeSearch,
+      // 4.我的最愛
+      likeData,
+      likeList,
+      likeId,
+      toggleLike
+    }
+  },
+  components: { Pagination, ToastContainer }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/MarketProductlist.scss">
+
+</style>
