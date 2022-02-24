@@ -4,4 +4,6 @@
       <table class="w-100">
         <thead class="thead">
           <tr class="row m-0 text-light">
-            <th class="col-
+            <th class="col-6 col-lg-3">幣種</th>
+            <th class="col-3 col-lg-3 text-start">最新價</th>
+      
