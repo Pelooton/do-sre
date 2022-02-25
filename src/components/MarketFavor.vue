@@ -7,4 +7,5 @@
             <th class="col-6 col-lg-3">幣種</th>
             <th class="col-3 col-lg-3 text-start">最新價</th>
             <th class="col-3 col-lg-1 text-end">24h漲幅</th>
-            <th class="c
+            <th class="col-lg-2 text-end dnone">24h成交量</th>
+            <th class="col-lg-2 text-
