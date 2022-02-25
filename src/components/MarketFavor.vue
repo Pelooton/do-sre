@@ -6,4 +6,5 @@
           <tr class="row m-0 text-light">
             <th class="col-6 col-lg-3">幣種</th>
             <th class="col-3 col-lg-3 text-start">最新價</th>
-      
+            <th class="col-3 col-lg-1 text-end">24h漲幅</th>
+            <th class="c
