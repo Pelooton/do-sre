@@ -13,4 +13,4 @@
           </tr>
         </thead>
         <tbody class="tbody text-light">
-          <tr v
+          <tr v-for="i in likeList" :key="i.c" class="row m-0 py-3" @click.prevent="$router.
