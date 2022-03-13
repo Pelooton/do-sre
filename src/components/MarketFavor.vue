@@ -17,4 +17,5 @@
             <td class="title col-6 col-lg-3 d-flex">
               <div><img :src="`//logo.chainbit.xyz/${i.b.toLowerCase()}`" class="logo img-fluid" alt=""></div>
               <div class="ms-2 dnone">{{i.an}}</div>
-        
+              <div class="ms-2">{{i.b}}</div>
+              <button class="btn btn-sm border-0" @c
