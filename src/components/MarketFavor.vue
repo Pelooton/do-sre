@@ -15,4 +15,6 @@
         <tbody class="tbody text-light">
           <tr v-for="i in likeList" :key="i.c" class="row m-0 py-3" @click.prevent="$router.push(`/trade/USDT_${i.b}`)">
             <td class="title col-6 col-lg-3 d-flex">
-              <div><img :src="`//logo.chainbit.xyz/${i.b.toLowerCase()}`" class
+              <div><img :src="`//logo.chainbit.xyz/${i.b.toLowerCase()}`" class="logo img-fluid" alt=""></div>
+              <div class="ms-2 dnone">{{i.an}}</div>
+        
