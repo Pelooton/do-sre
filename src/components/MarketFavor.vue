@@ -22,4 +22,5 @@
                 <i class="bi bi-star-fill" v-if="likeId.includes(i.b)"></i>
                 <i class="bi bi-star" v-else></i>
               </button>
-    
+            </td>
+            <td class="last-price col-3 col-lg-3 text-start">${
