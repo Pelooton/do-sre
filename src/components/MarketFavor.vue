@@ -19,4 +19,7 @@
               <div class="ms-2 dnone">{{i.an}}</div>
               <div class="ms-2">{{i.b}}</div>
               <button class="btn btn-sm border-0" @click.stop="toggleLike(i)">
-                <i class="bi bi-star-fill" v-if="likeId
+                <i class="bi bi-star-fill" v-if="likeId.includes(i.b)"></i>
+                <i class="bi bi-star" v-else></i>
+              </button>
+    
