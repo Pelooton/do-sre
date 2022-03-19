@@ -23,4 +23,5 @@
                 <i class="bi bi-star" v-else></i>
               </button>
             </td>
-            <td class="last-price col-3 col-lg-3 text-start">${
+            <td class="last-price col-3 col-lg-3 text-start">${{i.c}}</td>
+            <td class="col-lg-1 col-3 text-end" :class="{'down':i.perc
