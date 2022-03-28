@@ -26,4 +26,4 @@
             <td class="last-price col-3 col-lg-3 text-start">${{i.c}}</td>
             <td class="col-lg-1 col-3 text-end" :class="{'down':i.percentChange<0, 'up':i.percentChange>0}">{{i.percentChange}}%</td>
             <td class="volume col-lg-2 text-end dnone">${{$filters.currency(i.qv / 1000000)}}M</td>
-   
+            <td class="market-cap col-lg-2 text-end dnone">${{$filters.currency(i.total
