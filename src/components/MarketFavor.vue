@@ -28,4 +28,8 @@
             <td class="volume col-lg-2 text-end dnone">${{$filters.currency(i.qv / 1000000)}}M</td>
             <td class="market-cap col-lg-2 text-end dnone">${{$filters.currency(i.totalMC / 1000000)}}M</td>
             <td class="detail col-lg-1 text-end dnone pe-2">
-            
+              <a href="">詳情</a>
+            </td>
+          </tr>
+        </tbody>
+      <
