@@ -32,4 +32,7 @@
             </td>
           </tr>
         </tbody>
-      <
+      </table>
+    </div>
+  </div>
+  <div class="product-list p-5 text-center text-light fw-bo
