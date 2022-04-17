@@ -37,4 +37,8 @@
   </div>
   <div class="product-list p-5 text-center text-light fw-bold fs-2 vh-100" v-else>目前尚無我的最愛！</div>
   <ToastContainer></ToastContainer>
-</temp
+</template>
+
+<script>
+import likeStore from '@/stores/likeStore'
+import { storeToRefs } fr
