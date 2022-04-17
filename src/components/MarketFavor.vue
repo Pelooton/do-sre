@@ -41,4 +41,7 @@
 
 <script>
 import likeStore from '@/stores/likeStore'
-import { storeToRefs } fr
+import { storeToRefs } from 'pinia'
+import ToastContainer from './ToastContainer.vue'
+export default {
+  setup
