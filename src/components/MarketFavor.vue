@@ -44,4 +44,7 @@ import likeStore from '@/stores/likeStore'
 import { storeToRefs } from 'pinia'
 import ToastContainer from './ToastContainer.vue'
 export default {
-  setup
+  setup () {
+    // 1.獲取所需數據
+    const likeData = likeStore()
+    const { likeList, likeId } = stor
