@@ -56,4 +56,8 @@ export default {
       toggleLike
     }
   },
-  componen
+  components: { ToastContainer }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/MarketProd
