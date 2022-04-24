@@ -51,3 +51,9 @@ export default {
     const { toggleLike } = likeData
     return {
       likeData,
+      likeList,
+      likeId,
+      toggleLike
+    }
+  },
+  componen
