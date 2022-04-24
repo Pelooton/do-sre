@@ -47,4 +47,7 @@ export default {
   setup () {
     // 1.獲取所需數據
     const likeData = likeStore()
-    const { likeList, likeId } = stor
+    const { likeList, likeId } = storeToRefs(likeData)
+    const { toggleLike } = likeData
+    return {
+      likeData,
