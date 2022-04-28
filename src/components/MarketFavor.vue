@@ -60,4 +60,6 @@ export default {
 }
 </script>
 
-<style scoped lang="scss" src="@/assets/scss/front-end/MarketProd
+<style scoped lang="scss" src="@/assets/scss/front-end/MarketProductlist.scss">
+
+</style>
