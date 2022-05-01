@@ -49,3 +49,13 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/common/Navbar.scss">
+
+</style>
