@@ -6,4 +6,4 @@
           <a class="page-link" :class="{'disabled': pagination.currentPage===1}"><i class="bi bi-caret-left-fill"></i></a>
         </li>
         <li class="page-item mx-1" v-for="page in pagination.totalPages" :key="page"
-       
+          @click.prevent="updatePage(page)"><a class="page-link" href="#" :class="{'active': p
