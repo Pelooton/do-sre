@@ -8,4 +8,4 @@
         <li class="page-item mx-1" v-for="page in pagination.totalPages" :key="page"
           @click.prevent="updatePage(page)"><a class="page-link" href="#" :class="{'active': page === pagination.currentPage}">{{ page }}</a></li>
         <li class="page-item ms-1">
-       
+          <a class="page-link" href="#" :class="{'disabled': pagination.cur
