@@ -21,4 +21,5 @@ import { storeToRefs } from 'pinia'
 export default {
   setup () {
     const paginationData = paginationStore()
-    c
+    const { pagination, currentPageData } = storeToRefs(paginationData)
+    const { getP
