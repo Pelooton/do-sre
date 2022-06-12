@@ -18,4 +18,7 @@
 <script>
 import paginationStore from '@/stores/paginationStore'
 import { storeToRefs } from 'pinia'
-export d
+export default {
+  setup () {
+    const paginationData = paginationStore()
+    c
