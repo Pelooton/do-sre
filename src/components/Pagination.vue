@@ -22,4 +22,6 @@ export default {
   setup () {
     const paginationData = paginationStore()
     const { pagination, currentPageData } = storeToRefs(paginationData)
-    const { getP
+    const { getPagination, updatePage } = paginationData
+    paginationData.getPagination()
+    retu
