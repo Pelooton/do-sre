@@ -26,3 +26,9 @@ export default {
     paginationData.getPagination()
     return {
       paginationData, pagination, currentPageData, getPagination, updatePage
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/c
