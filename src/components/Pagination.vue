@@ -31,4 +31,6 @@ export default {
 }
 </script>
 
-<style scoped lang="scss" src="@/assets/scss/front-end/c
+<style scoped lang="scss" src="@/assets/scss/front-end/common/Pagination.scss">
+
+</style>
