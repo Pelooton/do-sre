@@ -42,3 +42,33 @@ export default {
       // eslint-disable-next-line vue/no-dupe-keys
       msg,
       toast
+    }
+  }
+}
+// export default {
+//   props: ['msg'],
+//   setup (props) {
+//     const { msg } = storeToRefs(props)
+//     // const { style, title, content } = ref(msg)
+//     const toast = ref(null)
+//     onMounted(() => {
+//       const toastShow = new Toast(toast.value, {
+//         delay: 3000
+//       })
+//       toastShow.show()
+//     })
+//     return {
+//       // eslint-disable-next-line vue/no-dupe-keys
+//       msg,
+//       // content,
+//       // style,
+//       // title,
+//       toast
+//     }
+//   }
+// }
+</script>
+
+<style>
+
+</style>

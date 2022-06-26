@@ -1,0 +1,11 @@
+
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+import router from './router'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import BootstrapJs from 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import { currency, toFixedTwo } from '@/methods/filters'
+import Loading from 'vue-loading-overlay'
