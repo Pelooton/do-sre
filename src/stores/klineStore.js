@@ -4,4 +4,9 @@ import { defineStore } from 'pinia'
 export default defineStore('info-data', {
   state: () => {
     return {
-      dataLi
+      dataList: [],
+      option: {
+        // 網格線
+        grid: {
+          show: false
+        
