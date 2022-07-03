@@ -9,4 +9,7 @@ export default defineStore('info-data', {
         // 網格線
         grid: {
           show: false
-        
+        },
+        candle: {
+          tooltip: {
+            showRule: 'follow_cros
