@@ -12,4 +12,6 @@ export default defineStore('info-data', {
         },
         candle: {
           tooltip: {
-            showRule: 'follow_cros
+            showRule: 'follow_cross',
+            labels: ['', '開盤:', '收盤:', '最高:', '最低:', '成交量:'],
+           
