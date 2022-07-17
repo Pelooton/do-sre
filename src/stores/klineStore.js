@@ -14,4 +14,8 @@ export default defineStore('info-data', {
           tooltip: {
             showRule: 'follow_cross',
             labels: ['', '開盤:', '收盤:', '最高:', '最低:', '成交量:'],
-           
+            text: {
+              size: 12,
+              color: '#838e9e',
+              marginLeft: 0,
+       
