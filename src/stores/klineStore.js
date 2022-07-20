@@ -18,4 +18,8 @@ export default defineStore('info-data', {
               size: 12,
               color: '#838e9e',
               marginLeft: 0,
-       
+              marginRight: 6
+            }
+          }
+        },
+      
