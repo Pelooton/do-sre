@@ -22,4 +22,9 @@ export default defineStore('info-data', {
             }
           }
         },
-      
+        xAxis: {
+          tickText: {
+            size: 10
+          }
+        },
+   
