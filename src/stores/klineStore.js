@@ -36,4 +36,7 @@ export default defineStore('info-data', {
             size: 10
           }
         },
-  
+        crosshair: {
+          horizontal: {
+            text: {
+              b
