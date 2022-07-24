@@ -27,4 +27,8 @@ export default defineStore('info-data', {
             size: 10
           }
         },
-   
+        yAxis: {
+          width: 50,
+          axisLine: {
+            color: 'gray'
+  
