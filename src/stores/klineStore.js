@@ -31,4 +31,9 @@ export default defineStore('info-data', {
           width: 50,
           axisLine: {
             color: 'gray'
+          },
+          tickText: {
+            size: 10
+          }
+        },
   
