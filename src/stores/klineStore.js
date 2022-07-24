@@ -39,4 +39,9 @@ export default defineStore('info-data', {
         crosshair: {
           horizontal: {
             text: {
-              b
+              borderSize: 0,
+              backgroundColor: 'blue'
+            }
+          }
+        }
+    
