@@ -44,4 +44,9 @@ export default defineStore('info-data', {
             }
           }
         }
-    
+      }
+    }
+  },
+  actions: {
+    getKlineData (coin) {
+      this.dataList = []
