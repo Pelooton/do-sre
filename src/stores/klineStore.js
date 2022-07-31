@@ -51,4 +51,6 @@ export default defineStore('info-data', {
     getKlineData (coin) {
       this.dataList = []
       const baseUrl = 'https://api.binance.com/api/v3/'
-      const query = `uiKlines?sym
+      const query = `uiKlines?symbol=${coin}USDT&interval=1d`
+      const url = baseUrl + query
+      axios.get(url).then((r
