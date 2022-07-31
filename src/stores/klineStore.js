@@ -50,3 +50,5 @@ export default defineStore('info-data', {
   actions: {
     getKlineData (coin) {
       this.dataList = []
+      const baseUrl = 'https://api.binance.com/api/v3/'
+      const query = `uiKlines?sym
