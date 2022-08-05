@@ -55,4 +55,7 @@ export default defineStore('info-data', {
       const url = baseUrl + query
       axios.get(url).then((res) => {
         const tempList = res.data.slice(135, 500)
-        tempList.forEac
+        tempList.forEach((i) => {
+          const data = {
+            timestamp: i[0],
+            open: Number(i[
