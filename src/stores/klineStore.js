@@ -53,4 +53,6 @@ export default defineStore('info-data', {
       const baseUrl = 'https://api.binance.com/api/v3/'
       const query = `uiKlines?symbol=${coin}USDT&interval=1d`
       const url = baseUrl + query
-      axios.get(url).then((r
+      axios.get(url).then((res) => {
+        const tempList = res.data.slice(135, 500)
+        tempList.forEac
