@@ -58,4 +58,7 @@ export default defineStore('info-data', {
         tempList.forEach((i) => {
           const data = {
             timestamp: i[0],
-            open: Number(i[
+            open: Number(i[1]),
+            high: Number(i[2]),
+            low: Number(i[3]),
+            clo
