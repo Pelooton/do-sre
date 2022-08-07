@@ -64,4 +64,9 @@ export default defineStore('info-data', {
             close: Number(i[4]),
             volume: Number(i[5])
           }
-          this.dataList.pu
+          this.dataList.push(data)
+        })
+      })
+    }
+  }
+})
