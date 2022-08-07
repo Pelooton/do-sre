@@ -35,3 +35,11 @@ export default defineStore('like-dataList', {
         })
       }
       // 儲存收藏列表進去
+      localStorage.setItem('like', JSON.stringify(this.likeList))
+      localStorage.setItem('id', JSON.stringify(this.likeId))
+      // 重新更新收藏列表資料
+      this.likeList = JSON.parse(localStorage.getItem('like'))
+      this.likeId = JSON.parse(localStorage.getItem('id'))
+    }
+  }
+})
