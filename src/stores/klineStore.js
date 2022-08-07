@@ -61,4 +61,7 @@ export default defineStore('info-data', {
             open: Number(i[1]),
             high: Number(i[2]),
             low: Number(i[3]),
-            clo
+            close: Number(i[4]),
+            volume: Number(i[5])
+          }
+          this.dataList.pu
