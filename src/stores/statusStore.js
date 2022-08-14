@@ -3,4 +3,8 @@ import { defineStore } from 'pinia'
 export default defineStore('statusStore', {
   state: () => ({
     isLoading: false,
-    mess
+    messages: []
+  }),
+  actions: {
+    pushMessage (data) {
+      const { title, style, 
