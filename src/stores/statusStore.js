@@ -7,4 +7,7 @@ export default defineStore('statusStore', {
   }),
   actions: {
     pushMessage (data) {
-      const { title, style, 
+      const { title, style, content } = data
+      this.messages.push({ title, style, content })
+      setTimeout(() => {
+        thi
