@@ -10,4 +10,8 @@ export default defineStore('statusStore', {
       const { title, style, content } = data
       this.messages.push({ title, style, content })
       setTimeout(() => {
-        thi
+        this.messages.shift()
+      }, 3500)
+    }
+  }
+})
