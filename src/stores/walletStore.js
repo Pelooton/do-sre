@@ -12,3 +12,4 @@ export default defineStore('wallet-data', {
   },
   getters: {
     currentStock: (state) => {
+      const filterList = state.dataList.filter(i => i.s.slice(-4) === 'USDT'
