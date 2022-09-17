@@ -14,4 +14,5 @@ export default defineStore('wallet-data', {
     currentStock: (state) => {
       const filterList = state.dataList.filter(i => i.s.slice(-4) === 'USDT')
       const tempList = state.stockList.map(function (i) {
-        const index 
+        const index = filterList.findIndex(j => j.b === i.abb)
+        i.price = Number(filterList[index].c
