@@ -15,4 +15,10 @@ export default defineStore('wallet-data', {
       const filterList = state.dataList.filter(i => i.s.slice(-4) === 'USDT')
       const tempList = state.stockList.map(function (i) {
         const index = filterList.findIndex(j => j.b === i.abb)
-        i.price = Number(filterList[index].c
+        i.price = Number(filterList[index].c)
+        return i
+      })
+      return tempList
+    },
+    currentValue () {
+      const 
