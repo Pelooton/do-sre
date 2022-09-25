@@ -22,4 +22,5 @@ export default defineStore('wallet-data', {
     },
     currentValue () {
       const result = this.currentStock.reduce((total, current) => {
-  
+        // eslint-disable-next-line no-return-assign
+        return total = to
