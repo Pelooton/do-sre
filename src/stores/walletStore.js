@@ -21,4 +21,5 @@ export default defineStore('wallet-data', {
       return tempList
     },
     currentValue () {
-      const 
+      const result = this.currentStock.reduce((total, current) => {
+  
