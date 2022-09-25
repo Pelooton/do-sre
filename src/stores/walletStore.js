@@ -27,4 +27,5 @@ export default defineStore('wallet-data', {
       }, 0)
       return result
     },
-    covertToBtc (
+    covertToBtc (state) {
+      const btcPrice = Number(state.dataList.filter(i => i.s === 'BTCUSDT
