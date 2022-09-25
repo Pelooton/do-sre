@@ -23,4 +23,8 @@ export default defineStore('wallet-data', {
     currentValue () {
       const result = this.currentStock.reduce((total, current) => {
         // eslint-disable-next-line no-return-assign
-        return total = to
+        return total = total + current.price
+      }, 0)
+      return result
+    },
+    covertToBtc (
