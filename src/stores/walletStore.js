@@ -30,4 +30,10 @@ export default defineStore('wallet-data', {
     covertToBtc (state) {
       const btcPrice = Number(state.dataList.filter(i => i.s === 'BTCUSDT')[0].c)
       const btcValue = (this.currentValue / btcPrice).toFixed(10)
-      return 
+      return btcValue
+    }
+  },
+  actions: {
+    sendCount (coin, count, fullCoin) {
+      if (count > 0) {
+     
