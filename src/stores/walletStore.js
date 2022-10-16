@@ -40,3 +40,7 @@ export default defineStore('wallet-data', {
         const stockIndex = this.stockList.findIndex((item) => item.abb === coin)
         console.log(stockIndex)
         const obj = {
+          title: fullCoin,
+          abb: coin,
+          count: count,
+          p
