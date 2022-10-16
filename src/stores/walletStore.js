@@ -43,4 +43,7 @@ export default defineStore('wallet-data', {
           title: fullCoin,
           abb: coin,
           count: count,
-          p
+          price: 0
+        }
+        if (stockIndex === -1) {
+          // 沒資料就寫入
