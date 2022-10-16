@@ -37,4 +37,6 @@ export default defineStore('wallet-data', {
     sendCount (coin, count, fullCoin) {
       if (count > 0) {
         status.isLoading = true
-        const stockIndex = this.stockList.
+        const stockIndex = this.stockList.findIndex((item) => item.abb === coin)
+        console.log(stockIndex)
+        const obj = {
