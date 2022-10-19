@@ -50,4 +50,6 @@ export default defineStore('wallet-data', {
           this.stockList.push(obj)
         } else {
           // 有資料的話做數量加總
-  
+          this.stockList[stockIndex].count += obj.count
+        }
+        localStorage.
