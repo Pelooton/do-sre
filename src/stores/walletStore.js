@@ -47,3 +47,7 @@ export default defineStore('wallet-data', {
         }
         if (stockIndex === -1) {
           // 沒資料就寫入
+          this.stockList.push(obj)
+        } else {
+          // 有資料的話做數量加總
+  
