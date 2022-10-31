@@ -53,4 +53,7 @@ export default defineStore('wallet-data', {
           this.stockList[stockIndex].count += obj.count
         }
         localStorage.setItem('stock', JSON.stringify(this.stockList))
-        this.stockList = JSON.parse(localStor
+        this.stockList = JSON.parse(localStorage.getItem('stock'))
+        setTimeout(() => {
+          status.isLoading = false
+          
