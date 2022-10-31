@@ -52,4 +52,5 @@ export default defineStore('wallet-data', {
           // 有資料的話做數量加總
           this.stockList[stockIndex].count += obj.count
         }
-        localStorage.
+        localStorage.setItem('stock', JSON.stringify(this.stockList))
+        this.stockList = JSON.parse(localStor
