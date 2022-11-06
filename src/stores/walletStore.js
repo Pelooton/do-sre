@@ -65,4 +65,5 @@ export default defineStore('wallet-data', {
       }
     },
     getCurrentValue () {
-      const allDataUrl = 'https://www.binance.com/e
+      const allDataUrl = 'https://www.binance.com/exchange-api/v2/public/asset-service/product/get-products'
+      axios.get(allDataUrl
