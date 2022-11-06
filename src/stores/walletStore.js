@@ -59,4 +59,7 @@ export default defineStore('wallet-data', {
           status.pushMessage({
             style: 'success',
             title: '購買成功',
-           
+            content: `已購買${fullCoin}(${coin}) ${count}顆 `
+          })
+        }, 500)
+      
