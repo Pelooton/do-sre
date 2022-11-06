@@ -56,4 +56,7 @@ export default defineStore('wallet-data', {
         this.stockList = JSON.parse(localStorage.getItem('stock'))
         setTimeout(() => {
           status.isLoading = false
-          
+          status.pushMessage({
+            style: 'success',
+            title: '購買成功',
+           
