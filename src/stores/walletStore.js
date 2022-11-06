@@ -62,4 +62,7 @@ export default defineStore('wallet-data', {
             content: `已購買${fullCoin}(${coin}) ${count}顆 `
           })
         }, 500)
-      
+      }
+    },
+    getCurrentValue () {
+      const allDataUrl = 'https://www.binance.com/e
