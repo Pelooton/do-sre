@@ -70,3 +70,5 @@ export default defineStore('wallet-data', {
         this.dataList = res.data.data
       })
     }
+  }
+})
