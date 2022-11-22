@@ -5,4 +5,5 @@
       <div class="col-12 col-lg-6">
         <img src="https://ppt.cc/ffEbKx@.png" class="img-fluid p-5" alt="">
       </div>
-      <div class="form co
+      <div class="form col-12 col-lg-6 align-self-center">
+        <h1 class="text-white" data-aos="fade-left
