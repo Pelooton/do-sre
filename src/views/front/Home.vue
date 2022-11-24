@@ -7,4 +7,5 @@
       </div>
       <div class="form col-12 col-lg-6 align-self-center">
         <h1 class="text-white" data-aos="fade-left" data-aos-duration="2000">在此平台交易和持有100種以上虛擬貨幣、追蹤市場價格變化</h1>
-        <form class="d-fle
+        <form class="d-flex mb-5">
+          <input class="ipt form-control w-50 me-2 text-light" type="text" pla
