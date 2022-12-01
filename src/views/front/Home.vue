@@ -13,4 +13,5 @@
         </form>
       </div>
     </div>
-    <div 
+    <div class="main-char row text-light" data-aos="fade-up">
+      <div class="col-6 col
