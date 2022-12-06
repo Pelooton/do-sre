@@ -14,4 +14,4 @@
       </div>
     </div>
     <div class="main-char row text-light" data-aos="fade-up">
-      <div class="col-6 col
+      <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-column"><h4 class="mb-0">500億美元</h4><span>交易所近一日交易量</span><
