@@ -16,4 +16,5 @@
     <div class="main-char row text-light" data-aos="fade-up">
       <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-column"><h4 class="mb-0">500億美元</h4><span>交易所近一日交易量</span></div></div>
       <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-column"><h4 class="mb-0">100+</h4><span>上市的虛擬貨幣</span></div></div>
-      <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-column"><h4 class="mb-0">&lt;0.05%</h4><span>平易近人的手續費</span></di
+      <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-column"><h4 class="mb-0">&lt;0.05%</h4><span>平易近人的手續費</span></div></div>
+      <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-co
