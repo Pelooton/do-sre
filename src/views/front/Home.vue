@@ -20,4 +20,10 @@
       <div class="col-6 col-lg-3 mb-4"><div class="d-flex flex-column"><h4 class="mb-0">2000萬</h4><span>註冊用戶</span></div></div>
     </div>
   </div>
-  <!-
+  <!--intro component-->
+  <HomeIntro></HomeIntro>
+  <Footer></Footer>
+</template>
+
+<script>
+//
