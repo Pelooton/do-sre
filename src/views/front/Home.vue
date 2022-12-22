@@ -28,4 +28,7 @@
 <script>
 // @ is an alias to /src
 import Navbar from '@/components/Navbar.vue'
-import Footer from '@/com
+import Footer from '@/components/Footer.vue'
+import HomeIntro from '@/components/HomeIntro.vue'
+
+export defau
