@@ -31,4 +31,13 @@ import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import HomeIntro from '@/components/HomeIntro.vue'
 
-export defau
+export default {
+  components: {
+    Navbar,
+    Footer,
+    HomeIntro
+  }
+}
+</script>
+
+<style scoped la
