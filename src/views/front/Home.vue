@@ -40,4 +40,6 @@ export default {
 }
 </script>
 
-<style scoped la
+<style scoped lang="scss" src="@/assets/scss/front-end/Home.scss">
+
+</style>
