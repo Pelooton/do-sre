@@ -10,4 +10,5 @@
       </nav>
       <div class="top-nav pt-1 pb-4 d-flex justify-content-between align-items-center">
         <div class="category">
-          <router-link :to="{
+          <router-link :to="{name: 'all'}" class="btn">所有加密貨幣</router-link>
+          <router-link :to="{name: 
