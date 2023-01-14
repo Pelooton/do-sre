@@ -17,4 +17,8 @@
           <i class="bi bi-search"></i>
           <input type="search" placeholder="搜尋幣種名稱" v-model="searchTxt">
         </div>
- 
+      </div>
+      <!-- Main Router-view -->
+      <router-view></router-view>
+    </div>
+  </di
