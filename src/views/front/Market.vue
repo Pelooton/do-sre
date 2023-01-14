@@ -12,4 +12,6 @@
         <div class="category">
           <router-link :to="{name: 'all'}" class="btn">所有加密貨幣</router-link>
           <router-link :to="{name: 'favorite'}" class="btn"><i class="bi bi-star-fill"></i> 我的最愛</router-link>
-      
+        </div>
+        <div class="search py-2">
+          <i class="bi bi-search"></
