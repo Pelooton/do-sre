@@ -21,4 +21,9 @@
       <!-- Main Router-view -->
       <router-view></router-view>
     </div>
-  </di
+  </div>
+  <Footer></Footer>
+</template>
+
+<script>
+import Navbar from '@/components/Navbar.vue'
