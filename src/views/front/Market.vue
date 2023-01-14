@@ -14,4 +14,7 @@
           <router-link :to="{name: 'favorite'}" class="btn"><i class="bi bi-star-fill"></i> 我的最愛</router-link>
         </div>
         <div class="search py-2">
-          <i class="bi bi-search"></
+          <i class="bi bi-search"></i>
+          <input type="search" placeholder="搜尋幣種名稱" v-model="searchTxt">
+        </div>
+ 
