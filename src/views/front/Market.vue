@@ -33,3 +33,8 @@ export default {
   components: { Navbar, Footer },
   setup () {
     const searchTxt = ref('')
+    provide('searchTxt', searchTxt)
+    return {
+      searchTxt
+    }
+  }
