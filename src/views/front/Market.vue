@@ -38,3 +38,7 @@ export default {
       searchTxt
     }
   }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/Mar
