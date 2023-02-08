@@ -27,3 +27,6 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
+import { ref, provide } from 'vue'
+export de
