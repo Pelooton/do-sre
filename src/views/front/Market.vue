@@ -29,4 +29,7 @@
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import { ref, provide } from 'vue'
-export de
+export default {
+  components: { Navbar, Footer },
+  setup () {
+    const searchTxt = ref('')
