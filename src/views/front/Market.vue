@@ -41,4 +41,6 @@ export default {
 }
 </script>
 
-<style scoped lang="scss" src="@/assets/scss/front-end/Mar
+<style scoped lang="scss" src="@/assets/scss/front-end/Market.scss">
+
+</style>
