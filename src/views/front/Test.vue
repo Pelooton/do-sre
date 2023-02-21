@@ -5,4 +5,7 @@
 </template>
 
 <script>
-import cryptoStore from '@/stor
+import cryptoStore from '@/stores/cryptoStore'
+import { storeToRefs } from 'pinia'
+import { ref } from 'vue'
+export defa
