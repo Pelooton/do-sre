@@ -8,4 +8,7 @@
 import cryptoStore from '@/stores/cryptoStore'
 import { storeToRefs } from 'pinia'
 import { ref } from 'vue'
-export defa
+export default {
+  setup () {
+    const cryptoData = cryptoStore()
+    const { sortData } = storeToRefs(cr
