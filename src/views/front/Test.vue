@@ -11,4 +11,7 @@ import { ref } from 'vue'
 export default {
   setup () {
     const cryptoData = cryptoStore()
-    const { sortData } = storeToRefs(cr
+    const { sortData } = storeToRefs(cryptoData)
+    const { getData } = cryptoData
+    cryptoData.getData()
+    const da
