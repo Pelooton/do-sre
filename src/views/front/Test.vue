@@ -14,4 +14,6 @@ export default {
     const { sortData } = storeToRefs(cryptoData)
     const { getData } = cryptoData
     cryptoData.getData()
-    const da
+    const datalist = ref([])
+    setTimeout(() => {
+      datalist.value = [...sortData.v
