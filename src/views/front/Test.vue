@@ -16,4 +16,7 @@ export default {
     cryptoData.getData()
     const datalist = ref([])
     setTimeout(() => {
-      datalist.value = [...sortData.v
+      datalist.value = [...sortData.value].find((i) => i.b === 'ETH')
+    }, 1000)
+    return {
+      cryptoData, sortDa
