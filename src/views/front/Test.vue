@@ -19,4 +19,13 @@ export default {
       datalist.value = [...sortData.value].find((i) => i.b === 'ETH')
     }, 1000)
     return {
-      cryptoData, sortDa
+      cryptoData, sortData, getData, datalist
+    }
+  }
+}
+
+</script>
+
+<style>
+
+</style>
