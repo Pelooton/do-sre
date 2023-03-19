@@ -4,3 +4,6 @@ module.exports = defineConfig({
 })
 module.exports = {
   devServer: {
+    proxy: {
+      '/api': {
+        // 跨域的目標路徑 https://api.binance.com/api/v3/tic
