@@ -64,3 +64,14 @@ export default {
     return {
       stockList,
       currentStock,
+      getCurrentValue,
+      currentValue,
+      covertToBtc
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss" src="@/assets/scss/front-end/Wallet.scss">
+
+</style>
