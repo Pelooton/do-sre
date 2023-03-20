@@ -6,4 +6,6 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        // 跨域的目標路徑 https://api.binance.com/api/v3/tic
+        // 跨域的目標路徑 https://api.binance.com/api/v3/ticker/24hr?symbol=BTC
+        target: 'https://api.binance.com/api',
+        // 
