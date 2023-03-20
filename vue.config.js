@@ -18,4 +18,8 @@ module.exports = {
     }
   }
 }
-mo
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/crypto/'
+    : './'
+}
